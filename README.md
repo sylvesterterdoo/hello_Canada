@@ -1,6 +1,6 @@
 # Hello Canada
 
-Hello Canada is a simple demo app that showcases the provinces and territories of Canada. It was built using Create React App, a popular tool for bootstrapping React applications.
+Hello Canada, is a simple demo app that showcases the provinces and territories of Canada. It was built using Create React App, a popular tool for bootstrapping React applications.
 
 ## Getting Started
 
