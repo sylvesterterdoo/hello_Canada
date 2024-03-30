@@ -17,10 +17,11 @@ class Item extends Component {
           src={this.props.flagUrl}
         />
         <div>
-          <h3>{this.props.name}</h3>
+          <h3 data-testid="item-name">{this.props.name}</h3>
           {this.state.isShowCapital ? <p>{this.props.capital}</p> : undefined}
         </div>
         <button
+          data-testid="item-btn"
           onClick={() =>
             this.setState({ isShowCapital: !this.state.isShowCapital })
           }
